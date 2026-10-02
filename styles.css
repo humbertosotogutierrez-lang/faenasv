@@ -24,7 +24,7 @@ body {
     color: var(--text-color);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 /* HEADER */
@@ -267,13 +267,6 @@ body {
     .search-bar {
         width: 160px;
     }
-}
-
-.otro {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    padding-right: 200px;
 }
 
 .imglogo img {
