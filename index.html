@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Digital - LA FAENA</title>
+    <!-- FontAwesome para Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="app-header">
+        <div class="logo">
+
+            <span class="imglogo"><img src="https://6ab9e2e957212ca6e1e9f743.imgix.net/faena/logo/logo%20la%20faena.png"
+                    alt="Un momento de dulsura"></span>
+            <span>LA FAENA</span>
+        </div>
+
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="search-input" placeholder="Buscar minutas, cocteles...">
+        </div>
+
+
+    </header>
+
+    <!-- LAYOUT PRINCIPAL (Sidebar + Main) -->
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <aside id="app-sidebar">
+            <h3>Categorías</h3>
+            <ul class="category-list">
+                <li>
+                    <button class="cat-btn active" data-category="all">
+                        <i class="fa-solid fa-border-all"></i> Todos
+                    </button>
+                </li>
+                <li>
+                    <button class="cat-btn" data-category="minutas-dulces">
+                        <i class="fa-solid fa-ice-cream"></i> Minutas Dulces
+                    </button>
+                </li>
+                <li>
+                    <button class="cat-btn" data-category="minutas-acidas">
+                        <i class="fa-solid fa-ice-cream"></i> Minutas Aciditas
+                    </button>
+                </li>
+                <li>
+                    <button class="cat-btn" data-category="chamoyadas">
+                        <i class="fa-solid fa-glass-water"></i> Chamoyadas
+                    </button>
+                </li>
+                <li>
+                    <button class="cat-btn" data-category="cocteles">
+                        <i class="fa-solid fa-pizza-slice"></i> Cocteles
+                    </button>
+                </li>
+                <li>
+                    <button class="cat-btn" data-category="ceviches y aguachiles">
+                        <i class="fa-solid fa-shrimp"></i> Ceviches y Aguachiles
+                    </button>
+                </li>
+                <li>
+                    <button class="cat-btn" data-category="cevinachos">
+                        <i class="fa-solid fa-shrimp"></i> Cevinachos
+                    </button>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- MAIN (Contenido de Productos) -->
+        <main id="app-main">
+            <div class="main-header">
+                <h2 id="category-title">Todos los Productos</h2>
+                <span class="products-count" id="products-count">productos disponibles</span>
+            </div>
+
+            <!-- Grid dinámico de productos -->
+            <div class="products-grid" id="products-grid">
+                <!-- Generado dinámicamente con JavaScript -->
+            </div>
+        </main>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="app-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="otro">
+                    <h4><i class="fa-solid fa-location-dot"></i> San Buenaventura, Usulután </h4><br>
+
+                    <h4><i class="fa-solid fa-location-dot"></i> Parque de Chinameca, San Miguel<br></h4>
+                </div>
+
+                <div class="otro"> <Span>Atención: Martes - Domingo | 1:00 PM - 8:00 PM</Span>
+                    <span> Atención: Sabado y Domingo | 1:00 PM - 9:00 PM</span>
+                </div>
+
+
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Minutas & Antojos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL / CARRITO LATERAL -->
+
+
+    <!-- Script JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
