@@ -146,7 +146,7 @@ const products = [
     },
     {
         id: 19,
-        name: "Ceviche Nacho de Camarón",
+        name: "Cevinacho de Camarón",
         category: "cevinachos",
         price: 3.50,
         description: "Crujientes nachos cubiertos con ceviche de camarón marinado en cítricos, cebolla encurtida, cebolla con jalapeños, chamoy, tajin y salsa inglesa.",
